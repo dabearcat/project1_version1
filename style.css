@@ -1,0 +1,129 @@
+body {
+    background-color: #ECFEF2;
+}
+.head-page {
+    background-color: #3EB567;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.head-page h1 {
+    font-size: 2.5rem;
+}
+
+.img-icon {
+    height: 20px;
+    padding: 3px;
+}
+#main-question {
+    text-align: center;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #E4F8EA;
+}
+
+#main-question h2 {
+    font-size: 3rem;
+}
+
+.reply-form {
+    padding-left: 50px;
+
+}
+.input-reply {
+    width: 60%;
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.response-area {
+    background-color: #D2EAD6;
+    padding: 20px;
+    border-radius: 20px;
+}
+.tablinks-myself {
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+    background-image: url('imgs/girl.png');
+    background-repeat:no-repeat;
+    border: none;
+}
+
+.tablinks-friend1 {
+    margin: 10px;
+    margin-bottom:5px;
+    height: 83px;
+    width: 83px;
+    background-image: url('imgs/boy.png');
+    background-repeat:no-repeat;
+    border: none;
+    background-size: contain;
+    opacity: .5;
+
+}
+.tablinks-friend2 {
+    margin: 5px 5px 0px 0px;
+    height: 30px;
+    width: 30px;
+    background-image: url('imgs/man\ \(1\).png');
+    background-repeat:no-repeat;
+    background-size: contain;
+    border: none;
+    padding: 0px;
+    float: right;
+    opacity: .5;
+}
+.tablinks-friend3 {
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    background-image: url('imgs/man.png');
+    background-repeat:no-repeat;
+    background-size: contain;
+    border: none;
+    float: right;
+    opacity: .5;
+}
+
+.tab p {
+    margin-top:-10px;
+    margin-left:20px;
+    margin-bottom:5px;
+}
+
+.tablinks-friend3:focus {
+    background-color: white;
+    opacity: 1;
+}
+.tablinks-friend2:focus {
+    background-color: white;
+    opacity: 1;
+}
+.tablinks-friend1:focus {
+    background-color: white;
+    opacity: 1;
+}
+
+.tabbox p {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.suggestion {
+    padding-top: 20px;
+}
+
+.submit-button{
+    background-color: #3EB567;
+    border: none;
+    border-radius: 10px;
+}
+

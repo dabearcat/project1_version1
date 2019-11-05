@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Your page title here :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+<script>
+
+</script>
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+ <div class="container">
+
+    <header class="row head-page">
+        <div class="six columns">
+            <h1>Friendli</h1>
+        </div>
+        <div class="six columns">
+            <p style="float: right">Past Conversations</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="row">
+            <div id="main-question">
+                <h2>Daily Question: How do you think our friendship will change after graduation?</h2> 
+            </div>
+        </div>
+    </main>
+    <!--START MAIN COMMENT SECTION-->
+    <section >
+        <div class="row response-area">
+            <div class="four columns" >
+                <!--creates the buttons of the tabs-->
+            
+                <div id="myself">
+                   <div class="row tab">
+                       <button class="tablinks-myself"></button>
+                   </div>
+
+                   <div id="All">
+                       <div class="column">
+                           <div class="row tabbox">
+                               <div class="column feature">
+                                   <p>This is my response. What's up.<br><br><button style="padding: 0;"><img class="img-icon" src="imgs/man.png"></button><button style="padding: 0;"><img class="img-icon" src="imgs/boy.png"></button></p>
+                                   
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+
+                </div>
+            </div>
+            <div class="eight columns">
+                <div id="responses">
+                    <div class="row tab">
+                        <div class="four columns">
+                            <button class="tablinks-friend1" onclick="openTab(event, 'Friend1')" id="defaultOpen"></button>
+                            <p> Friend 1 </p>
+                        </div>
+                        <button class="tablinks-friend2" onclick="openTab(event, 'Friend2')"></button>
+                        <button class="tablinks-friend3" onclick="openTab(event, 'Friend3')"></button>
+                    </div>
+ 
+                    <div id="Friend1" class="tabcontent">
+                        <div class="column">
+                            <div class="row tabbox">
+                                    <p class="friend-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <div id="Friend2" class="tabcontent active">
+                         <div class="column">
+                             <div class="row tabbox">
+                                 
+                                     <p>Hey. This is my super cool response.</p>
+                                 
+                             </div>
+                         </div>
+                     </div>
+ 
+                     <div id="Friend3" class="tabcontent">
+                         <div class="column">
+                             <div class="row tabbox">
+                                 
+                                    <p>Hey. This is my super cool response. I'm friend 3.</p>
+                                 
+                             </div>
+                         </div>
+                     </div>
+
+                     <div class="your-reply">
+                        <form class="reply-form" action="#" method="post">
+                            <input class="input-reply" type="reply" id="submission" placeholder="Type your reply" name="user_reply">
+                            <button class="submit-button" disabled>Submit</button>               
+                        </form>
+                    </div>
+                    
+                 </div>
+             </div>
+         </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+            function openTab(evt, tabName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                    // Get all elements with class="tablinks" and remove the class "active"
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                // Show the current tab, and add an "active" class to the button that opened the tab
+                document.getElementById(tabName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+            document.getElementById("defaultOpen").click();
+            </script>
+
+    
+    </center></footer>
+
+ </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
